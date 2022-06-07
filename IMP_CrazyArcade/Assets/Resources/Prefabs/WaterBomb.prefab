@@ -59,13 +59,21 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: f78f16706dd1cd747980810c3dd7d3a1, type: 2}
+    - target: {fileID: -3388819035588811304, guid: 8b33782905bd5c047a0207a17184e666, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8b33782905bd5c047a0207a17184e666, type: 3}
       propertyPath: m_Name
-      value: Bomb
+      value: WaterBomb
       objectReference: {fileID: 0}
     - target: {fileID: 1544840244345559953, guid: 8b33782905bd5c047a0207a17184e666, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 2e7fed9f24a404545a592d19fdbe3fdf, type: 2}
+    - target: {fileID: 2238910522502764068, guid: 8b33782905bd5c047a0207a17184e666, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b33782905bd5c047a0207a17184e666, type: 3}
