@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7663344635001154115}
   m_Layer: 0
   m_Name: Block_Break
-  m_TagString: Untagged
+  m_TagString: Block_Break
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

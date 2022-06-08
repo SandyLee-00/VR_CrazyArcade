@@ -8,14 +8,12 @@ public class EnemyController : MonoBehaviour
     public float speed = 1.0F;
 
     private bool isfollowing = true;
-    // public GameObject Player;
 
     void Start()
     {
         
     }
 
-    // Update is called once per frame
     void Update()
     {
         float step = speed * Time.deltaTime;

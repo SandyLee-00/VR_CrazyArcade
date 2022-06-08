@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Block_XBreak
+  - Block_Break
+  - Enemy
+  - Tile_Normal
+  - Tile_Selected
   layers:
   - Default
   - TransparentFX
