@@ -6,6 +6,7 @@ using UnityEditor;
 [ExecuteInEditMode]
 public class MapBuilder : MonoBehaviour
 {
+    
     // Public properties
     public Transform[] GridTransforms
     {
@@ -403,4 +404,5 @@ public class MapBuilder : MonoBehaviour
     {
         DestroyImmediate(_tileParentTransform.gameObject);
     }
+    
 }
