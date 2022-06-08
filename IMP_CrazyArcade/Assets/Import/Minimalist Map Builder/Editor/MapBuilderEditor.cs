@@ -5,6 +5,7 @@ using UnityEditorInternal;
 [CustomEditor(typeof(MapBuilder))]
 public class MapBuilderEditor : Editor
 {
+    
     private Tool _previousTool;
     private EditModeInstanceBhv _dragOnsetTileInstance;
     private bool _editState;
@@ -163,4 +164,5 @@ public class MapBuilderEditor : Editor
             }
         }
     }
+    
 }
