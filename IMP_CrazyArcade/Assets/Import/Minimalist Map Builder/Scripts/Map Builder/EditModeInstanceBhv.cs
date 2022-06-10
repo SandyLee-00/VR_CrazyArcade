@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-
+/*
 [ExecuteInEditMode]
 [RequireComponent(typeof(MeshFilter))]
 [RequireComponent(typeof(MeshRenderer))]
@@ -50,4 +50,4 @@ public class EditModeInstanceBhv : MonoBehaviour
     {
         return a.color != b.color || a.scale != b.scale;
     }
-}
+}*/

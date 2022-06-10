@@ -20,11 +20,17 @@ public class Bomb : MonoBehaviour
         
     }
 
+    
+
     private void OnTriggerEnter(Collider other)
     {
-        audiosource.clip = collidesound;
-        audiosource.Play();
-        
-        Destroy(other);
+        if (other.CompareTag("Block_Break"))
+        {
+            audiosource.clip = collidesound;
+            audiosource.Play();
+            Destroy(other.gameObject);
+        }
     }
+
+    
 }

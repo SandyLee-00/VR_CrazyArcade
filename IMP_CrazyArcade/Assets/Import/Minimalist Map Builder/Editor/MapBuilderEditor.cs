@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEditor;
 using UnityEditorInternal;
-
+/*
 [CustomEditor(typeof(MapBuilder))]
 public class MapBuilderEditor : Editor
 {
@@ -165,4 +165,4 @@ public class MapBuilderEditor : Editor
         }
     }
     
-}
+}*/
