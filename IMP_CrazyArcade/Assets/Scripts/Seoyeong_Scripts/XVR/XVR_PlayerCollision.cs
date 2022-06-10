@@ -27,16 +27,11 @@ public class XVR_PlayerCollision : MonoBehaviour
         if (other.gameObject.tag == "Enemy")
         {
             Debug.Log($"trigger : {other.gameObject.tag}");
-            pauseGame();
+            // pauseGame(); // 적과 충돌하면 게임 멈추기
+            // 게임오버 메시지 띄우기
+
         }
-        else if (other.gameObject.tag == "Block_Break")
-        {
-            Debug.Log($"trigger : {other.gameObject.tag}");
-        }
-        else if (other.gameObject.tag == "Block_XBreak")
-        {
-            Debug.Log($"trigger : {other.gameObject.tag}");
-        }
+        
     }
     
 }

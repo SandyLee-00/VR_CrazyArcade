@@ -721,8 +721,12 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3282669375015252362, guid: e720baa1bf4374d2ab5177bb8a0c084e, type: 3}
+      propertyPath: bubble
+      value: 
+      objectReference: {fileID: 4209461822604738560, guid: f0ce82264a2114405b890b3921c85fdf, type: 3}
+    - target: {fileID: 3282669375015252362, guid: e720baa1bf4374d2ab5177bb8a0c084e, type: 3}
       propertyPath: gravity
-      value: 10
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 3282669375015252363, guid: e720baa1bf4374d2ab5177bb8a0c084e, type: 3}
       propertyPath: m_Height
@@ -743,6 +747,10 @@ PrefabInstance:
     - target: {fileID: 3282669375015252363, guid: e720baa1bf4374d2ab5177bb8a0c084e, type: 3}
       propertyPath: m_StepOffset
       value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3282669375015252363, guid: e720baa1bf4374d2ab5177bb8a0c084e, type: 3}
+      propertyPath: m_MinMoveDistance
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3282669375015252365, guid: e720baa1bf4374d2ab5177bb8a0c084e, type: 3}
       propertyPath: m_Name
