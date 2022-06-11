@@ -25,12 +25,18 @@ public class Bomb : MonoBehaviour
         {
             // pos = Hand.transform.position;
             // temp = Instantiate(BubbleBomb, new Vector3(pos.x, -0.41f, pos.z), Quaternion.identity);
+            
             BubbleBomb.SetActive(false);
-        }else if (OVRInput.Get(OVRInput.RawButton.B))
+        }
+        
+        else if (OVRInput.Get(OVRInput.RawButton.B))
         {
             // pos = Hand.transform.position;
             // temp = Instantiate(BubbleBomb, new Vector3(pos.x, -0.41f, pos.z), Quaternion.identity);
-            BubbleBomb.SetActive(true);
+
+
+            BubbleBomb.SetActive(true); //Not working
+
         }
 
 
@@ -61,4 +67,9 @@ public class Bomb : MonoBehaviour
     }
 
 
+
+
 }
+
+
+
