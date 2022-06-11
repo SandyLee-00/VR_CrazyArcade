@@ -278,15 +278,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 6241799}
-  _renderer: {fileID: 6241802}
 --- !u!65 &6241801
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -395,15 +386,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 6277028}
-  _renderer: {fileID: 6277031}
 --- !u!65 &6277030
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -621,15 +603,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.4156863
-    g: 0.7843138
-    b: 0.8941177
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 50297595}
-  _renderer: {fileID: 50297598}
 --- !u!65 &50297597
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1065,15 +1038,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 77130519}
-  _renderer: {fileID: 77130522}
 --- !u!65 &77130521
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1291,15 +1255,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 111609666}
-  _renderer: {fileID: 111609669}
 --- !u!65 &111609668
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1408,15 +1363,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 115885024}
-  _renderer: {fileID: 115885027}
 --- !u!65 &115885026
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1525,15 +1471,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 116990314}
-  _renderer: {fileID: 116990317}
 --- !u!65 &116990316
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1642,15 +1579,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.4156863
-    g: 0.7843138
-    b: 0.8941177
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 118231891}
-  _renderer: {fileID: 118231894}
 --- !u!65 &118231893
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1759,15 +1687,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 130379020}
-  _renderer: {fileID: 130379023}
 --- !u!65 &130379022
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1876,15 +1795,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 136372578}
-  _renderer: {fileID: 136372581}
 --- !u!65 &136372580
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2102,15 +2012,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 155595514}
-  _renderer: {fileID: 155595517}
 --- !u!65 &155595516
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2655,15 +2556,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 193817917}
-  _renderer: {fileID: 193817920}
 --- !u!65 &193817919
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2881,15 +2773,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 201401118}
-  _renderer: {fileID: 201401121}
 --- !u!65 &201401120
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2998,15 +2881,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 225385636}
-  _renderer: {fileID: 225385639}
 --- !u!65 &225385638
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3115,15 +2989,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 231447906}
-  _renderer: {fileID: 231447909}
 --- !u!65 &231447908
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3750,15 +3615,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 283337814}
-  _renderer: {fileID: 283337817}
 --- !u!65 &283337816
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3976,15 +3832,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.4156863
-    g: 0.7843138
-    b: 0.8941177
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 316357398}
-  _renderer: {fileID: 316357401}
 --- !u!65 &316357400
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4093,15 +3940,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 324285045}
-  _renderer: {fileID: 324285048}
 --- !u!65 &324285047
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4428,15 +4266,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.4156863
-    g: 0.7843138
-    b: 0.8941177
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 356359180}
-  _renderer: {fileID: 356359183}
 --- !u!65 &356359182
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4654,15 +4483,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 372733301}
-  _renderer: {fileID: 372733304}
 --- !u!65 &372733303
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4880,15 +4700,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 381020791}
-  _renderer: {fileID: 381020794}
 --- !u!65 &381020793
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5106,15 +4917,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 400127351}
-  _renderer: {fileID: 400127354}
 --- !u!65 &400127353
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5364,15 +5166,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 417153419}
-  _renderer: {fileID: 417153422}
 --- !u!65 &417153421
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5481,15 +5274,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 417753493}
-  _renderer: {fileID: 417753496}
 --- !u!65 &417753495
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5598,15 +5382,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 460396080}
-  _renderer: {fileID: 460396083}
 --- !u!65 &460396082
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5824,15 +5599,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 479918539}
-  _renderer: {fileID: 479918542}
 --- !u!65 &479918541
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6050,15 +5816,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 503545900}
-  _renderer: {fileID: 503545903}
 --- !u!65 &503545902
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6167,15 +5924,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.4156863
-    g: 0.7843138
-    b: 0.8941177
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 507476556}
-  _renderer: {fileID: 507476559}
 --- !u!65 &507476558
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6365,15 +6113,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 516472090}
-  _renderer: {fileID: 516472093}
 --- !u!65 &516472092
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6591,15 +6330,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 528292833}
-  _renderer: {fileID: 528292836}
 --- !u!65 &528292835
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6708,15 +6438,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 541605199}
-  _renderer: {fileID: 541605202}
 --- !u!65 &541605201
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6825,15 +6546,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 544500121}
-  _renderer: {fileID: 544500124}
 --- !u!65 &544500123
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6942,15 +6654,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 569840715}
-  _renderer: {fileID: 569840718}
 --- !u!65 &569840717
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7277,15 +6980,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 588579952}
-  _renderer: {fileID: 588579955}
 --- !u!65 &588579954
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7394,15 +7088,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 591684127}
-  _renderer: {fileID: 591684130}
 --- !u!65 &591684129
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7511,15 +7196,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 601881595}
-  _renderer: {fileID: 601881598}
 --- !u!65 &601881597
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8680,15 +8356,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 671193520}
-  _renderer: {fileID: 671193523}
 --- !u!65 &671193522
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8797,15 +8464,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 680393591}
-  _renderer: {fileID: 680393594}
 --- !u!65 &680393593
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9156,15 +8814,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 709398979}
-  _renderer: {fileID: 709398982}
 --- !u!65 &709398981
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9382,15 +9031,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.4156863
-    g: 0.7843138
-    b: 0.8941177
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 719491677}
-  _renderer: {fileID: 719491680}
 --- !u!65 &719491679
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9608,15 +9248,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 719964689}
-  _renderer: {fileID: 719964692}
 --- !u!65 &719964691
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9725,15 +9356,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 725493582}
-  _renderer: {fileID: 725493585}
 --- !u!65 &725493584
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10060,15 +9682,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 737001230}
-  _renderer: {fileID: 737001233}
 --- !u!65 &737001232
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10177,15 +9790,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 751534708}
-  _renderer: {fileID: 751534711}
 --- !u!65 &751534710
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10294,15 +9898,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 761245686}
-  _renderer: {fileID: 761245689}
 --- !u!65 &761245688
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10520,15 +10115,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.4156863
-    g: 0.7843138
-    b: 0.8941177
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 770702579}
-  _renderer: {fileID: 770702582}
 --- !u!65 &770702581
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10746,15 +10332,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 774906125}
-  _renderer: {fileID: 774906128}
 --- !u!65 &774906127
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10972,15 +10549,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 790187595}
-  _renderer: {fileID: 790187598}
 --- !u!65 &790187597
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11089,15 +10657,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 791376439}
-  _renderer: {fileID: 791376442}
 --- !u!65 &791376441
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11206,15 +10765,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 804510879}
-  _renderer: {fileID: 804510882}
 --- !u!65 &804510881
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11432,15 +10982,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 808982015}
-  _renderer: {fileID: 808982018}
 --- !u!65 &808982017
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11549,15 +11090,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.15294117
-    g: 0.944557
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 815127112}
-  _renderer: {fileID: 815127115}
 --- !u!65 &815127114
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12244,15 +11776,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 883180032}
-  _renderer: {fileID: 883180035}
 --- !u!65 &883180034
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12361,15 +11884,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 886142858}
-  _renderer: {fileID: 886142861}
 --- !u!65 &886142860
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12587,15 +12101,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 892130103}
-  _renderer: {fileID: 892130106}
 --- !u!65 &892130105
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12887,7 +12392,6 @@ GameObject:
   - component: {fileID: 908015166}
   - component: {fileID: 908015165}
   - component: {fileID: 908015164}
-  - component: {fileID: 908015167}
   - component: {fileID: 908015168}
   - component: {fileID: 908015169}
   m_Layer: 0
@@ -12943,19 +12447,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &908015167
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 908015163}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 81009810469d143f68ee51aae87d14a6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  collidesound: {fileID: 0}
 --- !u!82 &908015168
 AudioSource:
   m_ObjectHideFlags: 0
@@ -13194,15 +12685,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.4156863
-    g: 0.7843138
-    b: 0.8941177
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 911240483}
-  _renderer: {fileID: 911240486}
 --- !u!65 &911240485
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13529,15 +13011,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 921928821}
-  _renderer: {fileID: 921928824}
 --- !u!65 &921928823
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13646,15 +13119,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 922970567}
-  _renderer: {fileID: 922970570}
 --- !u!65 &922970569
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13872,15 +13336,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 969649483}
-  _renderer: {fileID: 969649486}
 --- !u!65 &969649485
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13989,15 +13444,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.15294117
-    g: 0.944557
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 969782059}
-  _renderer: {fileID: 969782062}
 --- !u!65 &969782061
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14215,15 +13661,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 973927486}
-  _renderer: {fileID: 973927489}
 --- !u!65 &973927488
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14332,15 +13769,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 978110807}
-  _renderer: {fileID: 978110810}
 --- !u!65 &978110809
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14667,15 +14095,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 1011021008}
-  _renderer: {fileID: 1011021011}
 --- !u!65 &1011021010
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14784,15 +14203,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 1048792395}
-  _renderer: {fileID: 1048792398}
 --- !u!65 &1048792397
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14901,15 +14311,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 1067897685}
-  _renderer: {fileID: 1067897688}
 --- !u!65 &1067897687
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15018,15 +14419,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 1089076652}
-  _renderer: {fileID: 1089076655}
 --- !u!65 &1089076654
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15462,15 +14854,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 1122425864}
-  _renderer: {fileID: 1122425867}
 --- !u!65 &1122425866
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15579,15 +14962,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 1124336132}
-  _renderer: {fileID: 1124336135}
 --- !u!65 &1124336134
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16003,15 +15377,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 1171077469}
-  _renderer: {fileID: 1171077472}
 --- !u!65 &1171077471
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16120,15 +15485,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 1195972092}
-  _renderer: {fileID: 1195972095}
 --- !u!65 &1195972094
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16237,15 +15593,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 1201515684}
-  _renderer: {fileID: 1201515687}
 --- !u!65 &1201515686
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16463,15 +15810,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 1203711610}
-  _renderer: {fileID: 1203711613}
 --- !u!65 &1203711612
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16689,15 +16027,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 1219228065}
-  _renderer: {fileID: 1219228068}
 --- !u!65 &1219228067
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16806,15 +16135,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 1223352055}
-  _renderer: {fileID: 1223352058}
 --- !u!65 &1223352057
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16923,15 +16243,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 1235698087}
-  _renderer: {fileID: 1235698090}
 --- !u!65 &1235698089
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17657,15 +16968,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.4156863
-    g: 0.7843138
-    b: 0.8941177
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 1258953478}
-  _renderer: {fileID: 1258953481}
 --- !u!65 &1258953480
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17774,15 +17076,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 1274791478}
-  _renderer: {fileID: 1274791481}
 --- !u!65 &1274791480
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18000,15 +17293,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 1279287640}
-  _renderer: {fileID: 1279287643}
 --- !u!65 &1279287642
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18117,15 +17401,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 1282633949}
-  _renderer: {fileID: 1282633952}
 --- !u!65 &1282633951
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18343,15 +17618,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 1297100084}
-  _renderer: {fileID: 1297100087}
 --- !u!65 &1297100086
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18460,15 +17726,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 1299800559}
-  _renderer: {fileID: 1299800562}
 --- !u!65 &1299800561
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19340,15 +18597,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.15294117
-    g: 0.944557
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 1385208392}
-  _renderer: {fileID: 1385208395}
 --- !u!65 &1385208394
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19457,15 +18705,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.15294117
-    g: 0.944557
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 1411820061}
-  _renderer: {fileID: 1411820064}
 --- !u!65 &1411820063
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19574,15 +18813,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 1416066256}
-  _renderer: {fileID: 1416066259}
 --- !u!65 &1416066258
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19691,15 +18921,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 1425506745}
-  _renderer: {fileID: 1425506748}
 --- !u!65 &1425506747
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20353,15 +19574,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.15294117
-    g: 0.944557
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 1496105524}
-  _renderer: {fileID: 1496105527}
 --- !u!65 &1496105526
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20579,15 +19791,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 1537433115}
-  _renderer: {fileID: 1537433118}
 --- !u!65 &1537433117
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20696,15 +19899,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.4156863
-    g: 0.7843138
-    b: 0.8941177
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 1537479239}
-  _renderer: {fileID: 1537479242}
 --- !u!65 &1537479241
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20813,15 +20007,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 1552098549}
-  _renderer: {fileID: 1552098552}
 --- !u!65 &1552098551
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21257,15 +20442,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 1615466370}
-  _renderer: {fileID: 1615466373}
 --- !u!65 &1615466372
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21374,15 +20550,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.4156863
-    g: 0.7843138
-    b: 0.8941177
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 1617742629}
-  _renderer: {fileID: 1617742632}
 --- !u!65 &1617742631
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21600,15 +20767,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 1624821098}
-  _renderer: {fileID: 1624821101}
 --- !u!65 &1624821100
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21826,15 +20984,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.4156863
-    g: 0.7843138
-    b: 0.8941177
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 1665048181}
-  _renderer: {fileID: 1665048184}
 --- !u!65 &1665048183
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22052,15 +21201,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 1670621679}
-  _renderer: {fileID: 1670621682}
 --- !u!65 &1670621681
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22169,15 +21309,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 1671989563}
-  _renderer: {fileID: 1671989566}
 --- !u!65 &1671989565
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22614,39 +21745,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5226f63085b345146ac46133b0c6181a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  <DoneInstantiating>k__BackingField: 0
-  <EditState>k__BackingField: 0
-  <HoveredPosition>k__BackingField: {x: 0, y: 0, z: 0}
-  <SelectedPositions>k__BackingField: []
-  <Dragging>k__BackingField: 0
-  basePrefab: {fileID: 0}
-  baseColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 1
-  baseScale: {x: 25, y: 1, z: 25}
-  tilePrefab: {fileID: 0}
-  tileColor:
-    r: 1
-    g: 1
-    b: 1
-    a: 1
-  tileScale: {x: 1, y: 1, z: 1}
-  _transform: {fileID: 0}
-  _baseTransform: {fileID: 0}
-  _baseEditModeInstance: {fileID: 0}
-  _baseRenderer: {fileID: 0}
-  _baseCollider: {fileID: 0}
-  _baseMaterial: {fileID: 0}
-  _gridTransform: {fileID: 0}
-  _gridMeshFilter: {fileID: 0}
-  _gridVertices: []
-  _tileParentTransform: {fileID: 0}
-  _tileMaterial: {fileID: 0}
-  _tileHalfHeight: {x: 0, y: 0, z: 0}
-  _offset: {x: 0, y: 0, z: 0}
-  _busy: 0
 --- !u!21 &1717162670
 Material:
   serializedVersion: 6
@@ -23020,15 +22118,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: ef0d5dcec768df04bac791536a63878d, type: 2}
-  color:
-    r: 1
-    g: 0.84358776
-    b: 0.088679194
-    a: 1
-  scale: {x: 30, y: 1, z: 30}
-  _transform: {fileID: 1747452067}
-  _renderer: {fileID: 1747452070}
 --- !u!65 &1747452069
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23137,15 +22226,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 1750978277}
-  _renderer: {fileID: 1750978280}
 --- !u!65 &1750978279
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23900,15 +22980,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 1828971353}
-  _renderer: {fileID: 1828971356}
 --- !u!65 &1828971355
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24338,6 +23409,68 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collidesound: {fileID: 8300000, guid: 51f281a47209142dc890771ccc14646f, type: 3}
+  BubbleBomb: {fileID: 1839829547}
+  Hand: {fileID: 621545702}
+--- !u!114 &1839829553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1839829547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e933e81d3c20c74ea6fdc708a67e3a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useRecommendedMSAALevel: 1
+  _monoscopic: 0
+  minRenderScale: 0.7
+  maxRenderScale: 1
+  _headPoseRelativeOffsetRotation: {x: 0, y: 0, z: 0}
+  _headPoseRelativeOffsetTranslation: {x: 0, y: 0, z: 0}
+  profilerTcpPort: 32419
+  expandMixedRealityCapturePropertySheet: 0
+  enableMixedReality: 0
+  compositionMethod: 0
+  extraHiddenLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  extraVisibleLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  dynamicCullingMask: 1
+  externalCompositionBackdropColorRift: {r: 0, g: 1, b: 0, a: 1}
+  externalCompositionBackdropColorQuest: {r: 0, g: 0, b: 0, a: 0}
+  capturingCameraDevice: 0
+  flipCameraFrameHorizontally: 0
+  flipCameraFrameVertically: 0
+  handPoseStateLatency: 0
+  sandwichCompositionRenderLatency: 0
+  sandwichCompositionBufferedFrames: 8
+  chromaKeyColor: {r: 0, g: 1, b: 0, a: 1}
+  chromaKeySimilarity: 0.6
+  chromaKeySmoothRange: 0.03
+  chromaKeySpillRange: 0.06
+  useDynamicLighting: 0
+  depthQuality: 1
+  dynamicLightingSmoothFactor: 8
+  dynamicLightingDepthVariationClampingValue: 0.001
+  virtualGreenScreenType: 0
+  virtualGreenScreenTopY: 10
+  virtualGreenScreenBottomY: -10
+  virtualGreenScreenApplyDepthCulling: 0
+  virtualGreenScreenDepthTolerance: 0.2
+  mrcActivationMode: 0
+  isInsightPassthroughEnabled: 0
+  _trackingOriginType: 0
+  usePositionTracking: 1
+  useRotationTracking: 1
+  useIPDInPositionTracking: 1
+  resetTrackerOnLoad: 0
+  AllowRecenter: 1
+  LateControllerUpdate: 1
+  LateLatching: 0
 --- !u!1 &1854144067
 GameObject:
   m_ObjectHideFlags: 0
@@ -24384,15 +23517,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 1854144068}
-  _renderer: {fileID: 1854144071}
 --- !u!65 &1854144070
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24501,15 +23625,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 1854219737}
-  _renderer: {fileID: 1854219740}
 --- !u!65 &1854219739
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24618,15 +23733,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 1883602714}
-  _renderer: {fileID: 1883602717}
 --- !u!65 &1883602716
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24735,15 +23841,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.4156863
-    g: 0.7843138
-    b: 0.8941177
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 1885224784}
-  _renderer: {fileID: 1885224787}
 --- !u!65 &1885224786
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24852,15 +23949,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 1887861479}
-  _renderer: {fileID: 1887861482}
 --- !u!65 &1887861481
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24969,15 +24057,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.4156863
-    g: 0.7843138
-    b: 0.8941177
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 1889853645}
-  _renderer: {fileID: 1889853648}
 --- !u!65 &1889853647
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26176,15 +25255,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 1978397659}
-  _renderer: {fileID: 1978397662}
 --- !u!65 &1978397661
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26293,15 +25363,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 1983312039}
-  _renderer: {fileID: 1983312042}
 --- !u!65 &1983312041
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26410,15 +25471,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 1987117698}
-  _renderer: {fileID: 1987117701}
 --- !u!65 &1987117700
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26527,15 +25579,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 1998077621}
-  _renderer: {fileID: 1998077624}
 --- !u!65 &1998077623
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27080,15 +26123,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 2046061288}
-  _renderer: {fileID: 2046061291}
 --- !u!65 &2046061290
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27604,15 +26638,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 2116175907}
-  _renderer: {fileID: 2116175910}
 --- !u!65 &2116175909
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27721,15 +26746,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 2122569075}
-  _renderer: {fileID: 2122569078}
 --- !u!65 &2122569077
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27838,15 +26854,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287d14b4e0da434b87b8af5e59eb33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4d9a7ee317bb63240a67d62c6eec2466, type: 2}
-  color:
-    r: 0.8134893
-    g: 0.15471691
-    b: 1
-    a: 1
-  scale: {x: 2, y: 2, z: 2}
-  _transform: {fileID: 2130190327}
-  _renderer: {fileID: 2130190330}
 --- !u!65 &2130190329
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28143,6 +27150,10 @@ PrefabInstance:
     - target: {fileID: 3147805976728606599, guid: 77946a0abfaa759498cbb70d8f8a6da0, type: 3}
       propertyPath: m_Name
       value: Bomb
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147805976728606599, guid: 77946a0abfaa759498cbb70d8f8a6da0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3147805976728606599, guid: 77946a0abfaa759498cbb70d8f8a6da0, type: 3}
       propertyPath: m_TagString
