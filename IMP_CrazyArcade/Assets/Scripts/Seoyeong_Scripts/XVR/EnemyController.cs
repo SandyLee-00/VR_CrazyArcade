@@ -33,22 +33,5 @@ public class EnemyController : MonoBehaviour
         }
     }
 
-    /*
-    private void OnCollisionEnter(Collision collision)
-    {
-        if (collision.gameObject.CompareTag("Enemy"))
-        {
-            audiosource.clip = collidesound;
-            audiosource.Play();
-            Destroy(collision.gameObject);
-            SceneManager.LoadScene("Level2");
-
-        }else if (collision.gameObject.CompareTag("normalEnemy"))
-        {
-            audiosource.clip = collidesound2;
-            audiosource.Play();
-            Destroy(collision.gameObject);
-        }
-    }
-    */
+    
 }

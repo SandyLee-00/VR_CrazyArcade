@@ -10,8 +10,8 @@ public class Bomb : MonoBehaviour
     AudioSource audiosource;
     public GameObject BubbleBomb;
     public AudioClip collidesound2;
+    public float x,y,z;
 
-    //    public GameObject bubble;
     Vector3 pos;
 
 
