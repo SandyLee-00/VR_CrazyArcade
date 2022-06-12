@@ -58,7 +58,7 @@ public class Bomb : MonoBehaviour
 
 
             //Particle Effect Disapeear
-            Destroy(spawnedEffect, 3f);
+            Destroy(spawnedEffect, 2f);
 
         }
     }
@@ -71,6 +71,13 @@ public class Bomb : MonoBehaviour
             audiosource.Play();
             Destroy(collision.gameObject);
             Destroy(BubbleBomb.gameObject);
+
+            //Particle Effect
+            BombPos = this.BubbleBomb.transform.position;
+            spawnedEffect = Instantiate(Effect, BombPos, Quaternion.identity);
+            //Destroy(spawnedEffect, 2f);
+
+            //Scene Change
             SceneManager.LoadScene("Level2");
         }
         else if (collision.gameObject.CompareTag("normalEnemy"))
@@ -78,6 +85,12 @@ public class Bomb : MonoBehaviour
             audiosource.clip = watersound;
             audiosource.Play();
             Destroy(collision.gameObject);
+
+            //Particle Effect
+            BombPos = this.BubbleBomb.transform.position;
+            spawnedEffect = Instantiate(Effect, BombPos, Quaternion.identity);
+            Destroy(spawnedEffect, 2f);
+
             Invoke("active", 2);
             audiosource.Play();
         }
