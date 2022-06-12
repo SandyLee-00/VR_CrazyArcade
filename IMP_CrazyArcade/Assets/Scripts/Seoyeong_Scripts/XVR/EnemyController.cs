@@ -10,7 +10,8 @@ public class EnemyController : MonoBehaviour
 
     public AudioClip losesound;
     AudioSource audiosource;
-    public AudioClip collidesound;
+   // public AudioClip collidesound;
+   // public AudioClip collidesound2;
 
     private bool isfollowing = true;
 
@@ -30,10 +31,9 @@ public class EnemyController : MonoBehaviour
             audiosource.clip = losesound;
             audiosource.Play();
         }
-        
     }
 
-    
+    /*
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.CompareTag("Enemy"))
@@ -43,6 +43,12 @@ public class EnemyController : MonoBehaviour
             Destroy(collision.gameObject);
             SceneManager.LoadScene("Level2");
 
+        }else if (collision.gameObject.CompareTag("normalEnemy"))
+        {
+            audiosource.clip = collidesound2;
+            audiosource.Play();
+            Destroy(collision.gameObject);
         }
     }
+    */
 }

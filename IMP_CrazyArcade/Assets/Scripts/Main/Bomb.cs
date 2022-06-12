@@ -6,11 +6,12 @@ using UnityEngine.SceneManagement;
 public class Bomb : MonoBehaviour
 {
     GameObject temp;
-    public AudioClip collidesound;
-    public AudioClip bubbleinititatesound;
+    public AudioClip watersound;
     AudioSource audiosource;
     public GameObject BubbleBomb;
-//    public GameObject bubble;
+    public AudioClip collidesound2;
+
+    //    public GameObject bubble;
     Vector3 pos;
 
 
@@ -38,16 +39,16 @@ public class Bomb : MonoBehaviour
     {
         if (other.CompareTag("Block_Break"))
         {
-            audiosource.clip = collidesound;
+            audiosource.clip = watersound;
             audiosource.Play();
             Destroy(other.gameObject);
             BubbleBomb.SetActive(!BubbleBomb.active);
-            Invoke("active",3);
+            Invoke("active",2);
+            audiosource.Play();
 
             BubbleBomb = Instantiate(BubbleBomb, new Vector3(0.244f, -0.36f, 1.32f), Quaternion.identity);
 
-            audiosource.clip = bubbleinititatesound;
-            audiosource.Play();
+           
 
         }
     }
@@ -56,12 +57,19 @@ public class Bomb : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Enemy"))
         {
-            audiosource.clip = collidesound;
+            audiosource.clip = watersound;
             audiosource.Play();
             Destroy(collision.gameObject);
             Destroy(BubbleBomb.gameObject);
             SceneManager.LoadScene("Level2");
-
+        }
+        else if (collision.gameObject.CompareTag("normalEnemy"))
+        {
+            audiosource.clip = watersound;
+            audiosource.Play();
+            Destroy(collision.gameObject);
+            Invoke("active", 2);
+            audiosource.Play();
         }
     }
 

@@ -9,6 +9,7 @@ TagManager:
   - Enemy
   - Tile_Normal
   - Tile_Selected
+  - normalEnemy
   layers:
   - Default
   - TransparentFX
