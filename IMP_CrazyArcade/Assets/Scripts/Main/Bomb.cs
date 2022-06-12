@@ -36,6 +36,8 @@ public class Bomb : MonoBehaviour
             audiosource.clip = bubbleinititatesound;
             audiosource.Play();
         }*/
+
+
     }
 
     private void OnTriggerEnter(Collider other)
@@ -54,7 +56,8 @@ public class Bomb : MonoBehaviour
             Invoke("active",2);
             audiosource.Play();
 
-            BubbleBomb = Instantiate(BubbleBomb, new Vector3(0.244f, -0.36f, 1.32f), Quaternion.identity);
+            if (BubbleBomb.activeSelf == false)
+                BubbleBomb = Instantiate(BubbleBomb, new Vector3(0.244f, -0.36f, 1.32f), Quaternion.identity);
 
 
             //Particle Effect Disapeear
@@ -65,6 +68,8 @@ public class Bomb : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
+
+
         if (collision.gameObject.CompareTag("Enemy"))
         {
             audiosource.clip = watersound;
@@ -80,11 +85,16 @@ public class Bomb : MonoBehaviour
             //Scene Change
             SceneManager.LoadScene("Level2");
         }
+
+
         else if (collision.gameObject.CompareTag("normalEnemy"))
         {
             audiosource.clip = watersound;
             audiosource.Play();
+
+            //Disappear Enemy and Bomb
             Destroy(collision.gameObject);
+            BubbleBomb.SetActive(!BubbleBomb.active);
 
             //Particle Effect
             BombPos = this.BubbleBomb.transform.position;
@@ -93,6 +103,9 @@ public class Bomb : MonoBehaviour
 
             Invoke("active", 2);
             audiosource.Play();
+
+            if (BubbleBomb.activeSelf == false)
+                BubbleBomb = Instantiate(BubbleBomb, new Vector3(0.244f, -0.36f, 1.32f), Quaternion.identity);
         }
     }
 
