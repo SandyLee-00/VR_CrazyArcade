@@ -57,7 +57,7 @@ public class Bomb : MonoBehaviour
             audiosource.Play();
 
             if (BubbleBomb.activeSelf == false)
-                BubbleBomb = Instantiate(BubbleBomb, new Vector3(0.244f, -0.36f, 1.32f), Quaternion.identity);
+                BubbleBomb = Instantiate(BubbleBomb, new Vector3(x, y, z), Quaternion.identity);
 
 
             //Particle Effect Disapeear
@@ -105,7 +105,7 @@ public class Bomb : MonoBehaviour
             audiosource.Play();
 
             if (BubbleBomb.activeSelf == false)
-                BubbleBomb = Instantiate(BubbleBomb, new Vector3(0.244f, -0.36f, 1.32f), Quaternion.identity);
+                BubbleBomb = Instantiate(BubbleBomb, new Vector3(x, y, z), Quaternion.identity);
         }
     }
 

@@ -23388,8 +23388,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1036820991}
-  - component: {fileID: 1036820990}
-  - component: {fileID: 1036820989}
   m_Layer: 0
   m_Name: Bubble
   m_TagString: Untagged
@@ -23397,81 +23395,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1036820989
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1036820988}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e933e81d3c20c74ea6fdc708a67e3a5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  useRecommendedMSAALevel: 1
-  _monoscopic: 0
-  minRenderScale: 0.7
-  maxRenderScale: 1
-  _headPoseRelativeOffsetRotation: {x: 0, y: 0, z: 0}
-  _headPoseRelativeOffsetTranslation: {x: 0, y: 0, z: 0}
-  profilerTcpPort: 32419
-  expandMixedRealityCapturePropertySheet: 0
-  enableMixedReality: 0
-  compositionMethod: 0
-  extraHiddenLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  extraVisibleLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  dynamicCullingMask: 1
-  externalCompositionBackdropColorRift: {r: 0, g: 1, b: 0, a: 1}
-  externalCompositionBackdropColorQuest: {r: 0, g: 0, b: 0, a: 0}
-  capturingCameraDevice: 0
-  flipCameraFrameHorizontally: 0
-  flipCameraFrameVertically: 0
-  handPoseStateLatency: 0
-  sandwichCompositionRenderLatency: 0
-  sandwichCompositionBufferedFrames: 8
-  chromaKeyColor: {r: 0, g: 1, b: 0, a: 1}
-  chromaKeySimilarity: 0.6
-  chromaKeySmoothRange: 0.03
-  chromaKeySpillRange: 0.06
-  useDynamicLighting: 0
-  depthQuality: 1
-  dynamicLightingSmoothFactor: 8
-  dynamicLightingDepthVariationClampingValue: 0.001
-  virtualGreenScreenType: 0
-  virtualGreenScreenTopY: 10
-  virtualGreenScreenBottomY: -10
-  virtualGreenScreenApplyDepthCulling: 0
-  virtualGreenScreenDepthTolerance: 0.2
-  mrcActivationMode: 0
-  isInsightPassthroughEnabled: 0
-  _trackingOriginType: 0
-  usePositionTracking: 1
-  useRotationTracking: 1
-  useIPDInPositionTracking: 1
-  resetTrackerOnLoad: 0
-  AllowRecenter: 1
-  LateControllerUpdate: 1
-  LateLatching: 0
---- !u!114 &1036820990
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1036820988}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 81009810469d143f68ee51aae87d14a6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  watersound: {fileID: 0}
-  BubbleBomb: {fileID: 1159452195}
-  collidesound2: {fileID: 0}
 --- !u!4 &1036820991
 Transform:
   m_ObjectHideFlags: 0
@@ -26712,6 +26635,22 @@ PrefabInstance:
     m_TransformParent: {fileID: 1036820991}
     m_Modifications:
     - target: {fileID: 1839829552, guid: dbfe6184e8f3c49dca8d257bf2f3569f, type: 3}
+      propertyPath: x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1839829552, guid: dbfe6184e8f3c49dca8d257bf2f3569f, type: 3}
+      propertyPath: y
+      value: 1.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 1839829552, guid: dbfe6184e8f3c49dca8d257bf2f3569f, type: 3}
+      propertyPath: z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1839829552, guid: dbfe6184e8f3c49dca8d257bf2f3569f, type: 3}
+      propertyPath: Effect
+      value: 
+      objectReference: {fileID: 1867721836686211944, guid: a61a80c798299774192029c54ef3e753, type: 3}
+    - target: {fileID: 1839829552, guid: dbfe6184e8f3c49dca8d257bf2f3569f, type: 3}
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
@@ -26770,11 +26709,6 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 1839829551, guid: dbfe6184e8f3c49dca8d257bf2f3569f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: dbfe6184e8f3c49dca8d257bf2f3569f, type: 3}
---- !u!1 &1159452195 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3309014352006441074, guid: dbfe6184e8f3c49dca8d257bf2f3569f, type: 3}
-  m_PrefabInstance: {fileID: 1159452194}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1159452196 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2783272578502046408, guid: dbfe6184e8f3c49dca8d257bf2f3569f, type: 3}
