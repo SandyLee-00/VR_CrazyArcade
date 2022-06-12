@@ -10,9 +10,12 @@ public class Bomb : MonoBehaviour
     AudioSource audiosource;
     public GameObject BubbleBomb;
     public AudioClip collidesound2;
+    public GameObject Effect;
+    private GameObject spawnedEffect;
     public float x,y,z;
 
     Vector3 pos;
+    Vector3 BombPos;
 
 
     // Start is called before the first frame update
@@ -42,13 +45,20 @@ public class Bomb : MonoBehaviour
             audiosource.clip = watersound;
             audiosource.Play();
             Destroy(other.gameObject);
+
+            //Particle Effect
+            BombPos = this.BubbleBomb.transform.position;
+            spawnedEffect = Instantiate(Effect, BombPos, Quaternion.identity);
+
             BubbleBomb.SetActive(!BubbleBomb.active);
             Invoke("active",2);
             audiosource.Play();
 
             BubbleBomb = Instantiate(BubbleBomb, new Vector3(0.244f, -0.36f, 1.32f), Quaternion.identity);
 
-           
+
+            //Particle Effect Disapeear
+            Destroy(spawnedEffect, 3f);
 
         }
     }

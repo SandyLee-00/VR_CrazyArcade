@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -19611,6 +19611,10 @@ MonoBehaviour:
   watersound: {fileID: 0}
   BubbleBomb: {fileID: 1786878299}
   collidesound2: {fileID: 0}
+  Effect: {fileID: 8929540511681233345, guid: a61a80c798299774192029c54ef3e753, type: 3}
+  x: 0
+  y: 0
+  z: 0
 --- !u!1 &1258953477
 GameObject:
   m_ObjectHideFlags: 0
@@ -27416,6 +27420,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1248389760}
     m_Modifications:
     - target: {fileID: 1839829552, guid: dbfe6184e8f3c49dca8d257bf2f3569f, type: 3}
+      propertyPath: Effect
+      value: 
+      objectReference: {fileID: 8929540511681233345, guid: a61a80c798299774192029c54ef3e753, type: 3}
+    - target: {fileID: 1839829552, guid: dbfe6184e8f3c49dca8d257bf2f3569f, type: 3}
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
@@ -27466,6 +27474,10 @@ PrefabInstance:
     - target: {fileID: 3309014352006441074, guid: dbfe6184e8f3c49dca8d257bf2f3569f, type: 3}
       propertyPath: m_Name
       value: MainBubble
+      objectReference: {fileID: 0}
+    - target: {fileID: 5502216693510648651, guid: dbfe6184e8f3c49dca8d257bf2f3569f, type: 3}
+      propertyPath: m_ThrowVelocityScale
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dbfe6184e8f3c49dca8d257bf2f3569f, type: 3}
