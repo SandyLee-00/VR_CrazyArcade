@@ -27427,6 +27427,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1839829552, guid: dbfe6184e8f3c49dca8d257bf2f3569f, type: 3}
+      propertyPath: watersound
+      value: 
+      objectReference: {fileID: 8300000, guid: 51f281a47209142dc890771ccc14646f, type: 3}
     - target: {fileID: 2783272578502046408, guid: dbfe6184e8f3c49dca8d257bf2f3569f, type: 3}
       propertyPath: m_RootOrder
       value: 0
