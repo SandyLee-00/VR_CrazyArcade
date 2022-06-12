@@ -1,14 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Bomb : MonoBehaviour
 {
     GameObject temp;
     public AudioClip collidesound;
+    public AudioClip bubbleinititatesound;
     AudioSource audiosource;
     public GameObject BubbleBomb;
-    public GameObject Hand;
+//    public GameObject bubble;
     Vector3 pos;
 
 
@@ -21,28 +23,16 @@ public class Bomb : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (OVRInput.Get(OVRInput.RawButton.A))
+        /*if (OVRInput.Get(OVRInput.RawButton.A))
         {
-            // pos = Hand.transform.position;
-            // temp = Instantiate(BubbleBomb, new Vector3(pos.x, -0.41f, pos.z), Quaternion.identity);
-            
-            BubbleBomb.SetActive(false);
-        }
-        
-        else if (OVRInput.Get(OVRInput.RawButton.B))
-        {
-            // pos = Hand.transform.position;
-            // temp = Instantiate(BubbleBomb, new Vector3(pos.x, -0.41f, pos.z), Quaternion.identity);
+        //    pos = Hand.transform.position;
+            temp = Instantiate(BubbleBomb, new Vector3(pos.x, -0.41f, pos.z), Quaternion.identity);
+         //   temp.transform.SetParent(bubble.transform);
 
-
-            BubbleBomb.SetActive(true); //Not working
-
-        }
-
-
+            audiosource.clip = bubbleinititatesound;
+            audiosource.Play();
+        }*/
     }
-
-
 
     private void OnTriggerEnter(Collider other)
     {
@@ -51,24 +41,34 @@ public class Bomb : MonoBehaviour
             audiosource.clip = collidesound;
             audiosource.Play();
             Destroy(other.gameObject);
+            BubbleBomb.SetActive(!BubbleBomb.active);
+            Invoke("active",3);
+
+            BubbleBomb = Instantiate(BubbleBomb, new Vector3(0.244f, -0.36f, 1.32f), Quaternion.identity);
+
+            audiosource.clip = bubbleinititatesound;
+            audiosource.Play();
 
         }
     }
 
-    void PressButton()
+    private void OnCollisionEnter(Collision collision)
     {
-        if (OVRInput.Get(OVRInput.RawButton.A))
+        if (collision.gameObject.CompareTag("Enemy"))
         {
-            // setActive Bubble
-          //  pos = Hand.transform.position;
-           // temp = Instantiate(BubbleBomb, new Vector3(pos.x, -0.41f, pos.z), Quaternion.identity);
-            BubbleBomb.SetActive(!BubbleBomb);
+            audiosource.clip = collidesound;
+            audiosource.Play();
+            Destroy(collision.gameObject);
+            Destroy(BubbleBomb.gameObject);
+            SceneManager.LoadScene("Level2");
+
         }
     }
 
-
-
-
+    void active()
+    {
+        BubbleBomb.SetActive(true);
+    }
 }
 
 

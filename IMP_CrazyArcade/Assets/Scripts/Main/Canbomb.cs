@@ -21,8 +21,11 @@ public class Canbomb : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        if(other.CompareTag("Enemy"))
         audiosource.clip = collidesound;
         audiosource.Play();
-        Destroy(other);
+        Destroy(other.gameObject);
     }
+
+  
 }

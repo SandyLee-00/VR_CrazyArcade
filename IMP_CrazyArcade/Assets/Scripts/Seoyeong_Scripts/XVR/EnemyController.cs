@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EnemyController : MonoBehaviour
 {
@@ -9,9 +10,7 @@ public class EnemyController : MonoBehaviour
 
     public AudioClip losesound;
     AudioSource audiosource;
-
-
-    
+    public AudioClip collidesound;
 
     private bool isfollowing = true;
 
@@ -30,8 +29,20 @@ public class EnemyController : MonoBehaviour
         {
             audiosource.clip = losesound;
             audiosource.Play();
-
         }
         
+    }
+
+    
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            audiosource.clip = collidesound;
+            audiosource.Play();
+            Destroy(collision.gameObject);
+            SceneManager.LoadScene("Level2");
+
+        }
     }
 }
