@@ -10,10 +10,10 @@ public class EnemyController : MonoBehaviour
 
     public AudioClip losesound;
     AudioSource audiosource;
-   // public AudioClip collidesound;
-   // public AudioClip collidesound2;
+    // public AudioClip collidesound;
+    // public AudioClip collidesound2;
 
-    private bool isfollowing = true;
+    public bool isfollowing = true;
 
     // Start is called before the first frame update
     void Start()
@@ -23,15 +23,26 @@ public class EnemyController : MonoBehaviour
 
     void Update()
     {
-        float step = speed * Time.deltaTime;
-        transform.position = Vector3.MoveTowards(transform.position, target.position, step);
+        if (isfollowing == true)
+        {
+            float step = speed * Time.deltaTime;
+            transform.position = Vector3.MoveTowards(transform.position, target.position, step);
+        }
 
-        if(target.position == transform.position)
+
+        if (target.position == transform.position)
         {
             audiosource.clip = losesound;
             audiosource.Play();
         }
     }
 
-    
+    void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            audiosource.clip = losesound;
+            audiosource.Play();
+        }
+    }
 }
