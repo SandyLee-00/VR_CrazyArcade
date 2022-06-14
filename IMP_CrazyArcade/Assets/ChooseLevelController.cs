@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ChooseLevelController : MonoBehaviour
 {
@@ -19,5 +20,6 @@ public class ChooseLevelController : MonoBehaviour
     public void testButtonEvent()
     {
         Debug.Log("click button");
+        SceneManager.LoadScene("Playmain");
     }
 }
