@@ -18,7 +18,7 @@ public class ChooseLevelController : MonoBehaviour
     public void level2ButtonEvent()
     {
         Debug.Log("click button2");
-        SceneManager.LoadScene("Playmain");
+        SceneManager.LoadScene("Level2");
     }
 
     public void homeButtonEvent()
