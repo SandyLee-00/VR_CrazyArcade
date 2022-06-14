@@ -12,7 +12,8 @@ public class Bomb : MonoBehaviour
     public AudioClip collidesound2;
     public GameObject Effect;
     private GameObject spawnedEffect;
-    public float x,y,z;
+
+    public GameObject player; //for get position 
 
     Vector3 pos;
     Vector3 BombPos;
@@ -22,22 +23,14 @@ public class Bomb : MonoBehaviour
     void Start()
     {
         this.audiosource = GetComponent<AudioSource>();
+        pos = player.transform.position;
+        this.gameObject.transform.position = new Vector3(pos.x, 0.0f, pos.z + 2.0f);
     }
 
     // Update is called once per frame
     void Update()
     {
-        /*if (OVRInput.Get(OVRInput.RawButton.A))
-        {
-        //    pos = Hand.transform.position;
-            temp = Instantiate(BubbleBomb, new Vector3(pos.x, -0.41f, pos.z), Quaternion.identity);
-         //   temp.transform.SetParent(bubble.transform);
-
-            audiosource.clip = bubbleinititatesound;
-            audiosource.Play();
-        }*/
-
-
+        pos = player.transform.position;
     }
 
     private void OnTriggerEnter(Collider other)
@@ -57,7 +50,7 @@ public class Bomb : MonoBehaviour
             audiosource.Play();
 
             if (BubbleBomb.activeSelf == false)
-                BubbleBomb = Instantiate(BubbleBomb, new Vector3(x, y, z), Quaternion.identity);
+                BubbleBomb = Instantiate(BubbleBomb, new Vector3(pos.x, 0.0f, pos.z + 2.0f), Quaternion.identity);
 
 
             //Particle Effect Disapeear
@@ -105,7 +98,7 @@ public class Bomb : MonoBehaviour
             audiosource.Play();
 
             if (BubbleBomb.activeSelf == false)
-                BubbleBomb = Instantiate(BubbleBomb, new Vector3(x, y, z), Quaternion.identity);
+                BubbleBomb = Instantiate(BubbleBomb, new Vector3(pos.x , 0.0f, pos.z+2.0f), Quaternion.identity);
         }
     }
 
