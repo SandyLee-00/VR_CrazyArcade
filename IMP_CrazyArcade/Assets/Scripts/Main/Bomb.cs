@@ -18,23 +18,31 @@ public class Bomb : MonoBehaviour
     Vector3 pos;
     Vector3 BombPos;
 
+    private bool getBomb;
+
 
     // Start is called before the first frame update
     void Start()
     {
         this.audiosource = GetComponent<AudioSource>();
         pos = player.transform.position;
-        this.gameObject.transform.position = new Vector3(pos.x, 0.0f, pos.z + 2.0f);
+        this.gameObject.transform.position = new Vector3(pos.x, 1.07f, pos.z + 2.0f);
+        getBomb = false;
     }
 
     // Update is called once per frame
     void Update()
     {
         pos = player.transform.position;
+        if(!getBomb)
+        {
+            BubbleBomb.transform.position = new Vector3(pos.x, 1.07f, pos.z + 2.0f);
+        }
     }
 
     private void OnTriggerEnter(Collider other)
     {
+        getBomb = true;
         if (other.CompareTag("Block_Break"))
         {
             audiosource.clip = watersound;
@@ -50,7 +58,7 @@ public class Bomb : MonoBehaviour
             audiosource.Play();
 
             if (BubbleBomb.activeSelf == false)
-                BubbleBomb = Instantiate(BubbleBomb, new Vector3(pos.x, 0.0f, pos.z + 2.0f), Quaternion.identity);
+                BubbleBomb = Instantiate(BubbleBomb, new Vector3(pos.x, 1.07f, pos.z + 2.0f), Quaternion.identity);
 
 
             //Particle Effect Disapeear
@@ -62,7 +70,7 @@ public class Bomb : MonoBehaviour
     private void OnCollisionEnter(Collision collision)
     {
 
-
+        getBomb = true;
         if (collision.gameObject.CompareTag("Enemy"))
         {
             audiosource.clip = watersound;
@@ -98,7 +106,7 @@ public class Bomb : MonoBehaviour
             audiosource.Play();
 
             if (BubbleBomb.activeSelf == false)
-                BubbleBomb = Instantiate(BubbleBomb, new Vector3(pos.x , 0.0f, pos.z+2.0f), Quaternion.identity);
+                BubbleBomb = Instantiate(BubbleBomb, new Vector3(pos.x , 1.07f, pos.z+2.0f), Quaternion.identity);
         }
     }
 
