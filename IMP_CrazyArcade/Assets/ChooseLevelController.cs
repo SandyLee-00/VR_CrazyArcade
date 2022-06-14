@@ -5,21 +5,40 @@ using UnityEngine.SceneManagement;
 
 public class ChooseLevelController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField] private GameObject mainPanel;
+    [SerializeField] private GameObject tutorialPanel;
+    [SerializeField] private GameObject creditPanel;
 
-    // Update is called once per frame
-    void Update()
+    public void level1ButtonEvent()
     {
-        
-    }
-
-    public void testButtonEvent()
-    {
-        Debug.Log("click button");
+        Debug.Log("click button1");
         SceneManager.LoadScene("Playmain");
+    }
+
+    public void level2ButtonEvent()
+    {
+        Debug.Log("click button2");
+        SceneManager.LoadScene("Playmain");
+    }
+
+    public void homeButtonEvent()
+    {
+        mainPanel.SetActive(true);
+        tutorialPanel.SetActive(false);
+        creditPanel.SetActive(false);
+    }
+
+    public void tutorialButtonEvent()
+    {
+        mainPanel.SetActive(false);
+        tutorialPanel.SetActive(true);
+        creditPanel.SetActive(false);
+    }
+
+    public void creditButtonEvent()
+    {
+        mainPanel.SetActive(false);
+        tutorialPanel.SetActive(false);
+        creditPanel.SetActive(true);
     }
 }
