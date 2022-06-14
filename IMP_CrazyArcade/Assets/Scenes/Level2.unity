@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.07997306, g: 0.10002564, b: 0.30088016, a: 1}
+  m_IndirectSpecularColor: {r: 0.080534704, g: 0.09992717, b: 0.30126682, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3150,7 +3150,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 854988950}
-  speed: 0.5
+  speed: 0.23
   losesound: {fileID: 8300000, guid: 12da0e038fcfb411795e66d6c85cefa5, type: 3}
   isfollowing: 1
 --- !u!82 &103970346
@@ -3892,7 +3892,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 854988950}
-  speed: 0.5
+  speed: 0.3
   losesound: {fileID: 8300000, guid: 12da0e038fcfb411795e66d6c85cefa5, type: 3}
   isfollowing: 1
 --- !u!82 &127858264
@@ -5938,7 +5938,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 854988950}
-  speed: 0.5
+  speed: 0.45
   losesound: {fileID: 8300000, guid: 12da0e038fcfb411795e66d6c85cefa5, type: 3}
   isfollowing: 1
 --- !u!82 &215379857
@@ -9798,7 +9798,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 854988950}
-  speed: 0.5
+  speed: 0.16
   losesound: {fileID: 8300000, guid: 12da0e038fcfb411795e66d6c85cefa5, type: 3}
   isfollowing: 1
 --- !u!82 &407544501
@@ -22458,7 +22458,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 854988950}
-  speed: 0.5
+  speed: 0.24
   losesound: {fileID: 8300000, guid: 12da0e038fcfb411795e66d6c85cefa5, type: 3}
   isfollowing: 1
 --- !u!82 &1006334699
@@ -24004,7 +24004,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 854988950}
-  speed: 0.5
+  speed: 0.13
   losesound: {fileID: 8300000, guid: 12da0e038fcfb411795e66d6c85cefa5, type: 3}
   isfollowing: 1
 --- !u!82 &1063957717
@@ -26477,7 +26477,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 854988950}
-  speed: 0.5
+  speed: 0.18
   losesound: {fileID: 8300000, guid: 12da0e038fcfb411795e66d6c85cefa5, type: 3}
   isfollowing: 1
 --- !u!82 &1153830249
@@ -26875,6 +26875,10 @@ PrefabInstance:
     - target: {fileID: 3309014352006441074, guid: dbfe6184e8f3c49dca8d257bf2f3569f, type: 3}
       propertyPath: m_Name
       value: MainBubble
+      objectReference: {fileID: 0}
+    - target: {fileID: 5502216693510648651, guid: dbfe6184e8f3c49dca8d257bf2f3569f, type: 3}
+      propertyPath: m_ThrowVelocityScale
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 1839829551, guid: dbfe6184e8f3c49dca8d257bf2f3569f, type: 3}
@@ -30453,7 +30457,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 854988950}
-  speed: 0.5
+  speed: 0.11
   losesound: {fileID: 8300000, guid: 12da0e038fcfb411795e66d6c85cefa5, type: 3}
   isfollowing: 1
 --- !u!82 &1308588983
@@ -38320,7 +38324,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 854988950}
-  speed: 0.5
+  speed: 0.14
   losesound: {fileID: 8300000, guid: 12da0e038fcfb411795e66d6c85cefa5, type: 3}
   isfollowing: 1
 --- !u!82 &1590962988
@@ -40582,7 +40586,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 854988950}
-  speed: 0.5
+  speed: 0.37
   losesound: {fileID: 8300000, guid: 12da0e038fcfb411795e66d6c85cefa5, type: 3}
   isfollowing: 1
 --- !u!82 &1700422811
@@ -41322,7 +41326,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 854988950}
-  speed: 0.5
+  speed: 0.38
   losesound: {fileID: 8300000, guid: 12da0e038fcfb411795e66d6c85cefa5, type: 3}
   isfollowing: 1
 --- !u!82 &1711841527
@@ -45967,7 +45971,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 854988950}
-  speed: 0.5
+  speed: 0.42
   losesound: {fileID: 8300000, guid: 12da0e038fcfb411795e66d6c85cefa5, type: 3}
   isfollowing: 1
 --- !u!82 &1952958145
@@ -49409,7 +49413,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 854988950}
-  speed: 0.5
+  speed: 0.23
   losesound: {fileID: 8300000, guid: 12da0e038fcfb411795e66d6c85cefa5, type: 3}
   isfollowing: 1
 --- !u!82 &2106747485
