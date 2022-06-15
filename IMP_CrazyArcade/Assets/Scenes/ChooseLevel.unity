@@ -2669,7 +2669,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.556, y: -0.82}
+  m_AnchoredPosition: {x: 1.39, y: -0.53}
   m_SizeDelta: {x: 1463.8684, y: 590.3001}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1449266953
@@ -2705,11 +2705,15 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "<b><color=#FF9B00>Throw a water balloon through the trigger on the right-hand
-    controller.\r\nIt is moved via the joystick of the left-hand controller.\r</color></b>\n\r\n1.
-    Find a water balloon.\r\n\n2. Hold the water balloon with the right-hand controller
-    and throw it at the monster.\r\n\n3. If it touches a monster, it takes damage.\r\n\n4.
-    <color=#FFD400>Success</color> if you kill the boss monster!"
+  m_Text: '201821048  Seoyoung Lee : Player/Monster
+
+    202021110 Gaeun Yoo : Bomb/Break
+    block/Kill the monster
+
+    202021121 Sieun Song : Intro/Ending/UI/Navigation
+
+    202021082
+    Hyojoo Park : Bomb/Effect'
 --- !u!222 &1449266954
 CanvasRenderer:
   m_ObjectHideFlags: 0

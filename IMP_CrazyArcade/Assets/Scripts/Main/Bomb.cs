@@ -14,6 +14,7 @@ public class Bomb : MonoBehaviour
     private GameObject spawnedEffect;
 
     public GameObject player; //for get position 
+    public GameObject resultYN;
 
     Vector3 pos;
     Vector3 BombPos;
@@ -54,7 +55,7 @@ public class Bomb : MonoBehaviour
             spawnedEffect = Instantiate(Effect, BombPos, Quaternion.identity);
 
             BubbleBomb.SetActive(!BubbleBomb.active);
-            Invoke("active",2);
+            Invoke("active",1);
             audiosource.Play();
 
             if (BubbleBomb.activeSelf == false)
@@ -73,6 +74,7 @@ public class Bomb : MonoBehaviour
         getBomb = true;
         if (collision.gameObject.CompareTag("Enemy"))
         {
+            resultYN.GetComponent<getScore>().score += 1;
             audiosource.clip = watersound;
             audiosource.Play();
             Destroy(collision.gameObject);
@@ -81,15 +83,18 @@ public class Bomb : MonoBehaviour
             //Particle Effect
             BombPos = this.BubbleBomb.transform.position;
             spawnedEffect = Instantiate(Effect, BombPos, Quaternion.identity);
-            //Destroy(spawnedEffect, 2f);
+            Destroy(spawnedEffect, 2f);
 
             //Scene Change
-            SceneManager.LoadScene("Level2");
+            //SceneManager.LoadScene("Level2");
+            if (resultYN.GetComponent<getScore>().result == false)
+                resultYN.GetComponent<getScore>().result = true;
         }
 
 
         else if (collision.gameObject.CompareTag("normalEnemy"))
         {
+            resultYN.GetComponent<getScore>().score += 1;
             audiosource.clip = watersound;
             audiosource.Play();
 
